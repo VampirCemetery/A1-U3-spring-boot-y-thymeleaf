@@ -13,23 +13,23 @@ La aplicación usa una arquitectura en capas (Controller → Service → Reposit
 
 ## Características
 
-✅ **CRUD Completo**
+ **CRUD Completo**
   - Crear nuevos estudiantes
   - Ver lista de todos los estudiantes
   - Editar información existente
   - Eliminar estudiantes
 
-✅ **Validación de Datos**
+ **Validación de Datos**
   - Validación del lado del cliente (HTML5)
   - Validación del lado del servidor (Bean Validation)
   - Mensajes de error personalizados
 
-✅ **Base de Datos**
+ **Base de Datos**
   - H2 in-memory (datos temporales)
   - Datos de ejemplo precargados
   - Consola H2 para inspección directa
 
-✅ **Interfaz Moderna**
+ **Interfaz Moderna**
   - Bootstrap 5
   - Diseño responsive
   - Font Awesome icons
@@ -41,7 +41,7 @@ La aplicación usa una arquitectura en capas (Controller → Service → Reposit
 
 ## Cómo Ejecutar
 
-### 🚀 Opción 1: Script de Ejecución Rápida (Recomendado)
+###  Opción 1: Script de Ejecución Rápida (Recomendado)
 
 Simplemente ejecuta:
 
@@ -78,7 +78,7 @@ Presiona `Ctrl+C` en la terminal donde está corriendo
 
 Una vez iniciada la aplicación (verás el mensaje "Started CrudDemoApplication"), abre tu navegador:
 
-### 🌐 Aplicación Principal
+###  Aplicación Principal
 **http://localhost:8080**
 
 Aquí podrás:
@@ -87,7 +87,7 @@ Aquí podrás:
 - Editar estudiantes existentes (botón azul con lápiz)
 - Eliminar estudiantes (botón rojo con basura)
 
-### 🗄️ Consola de Base de Datos H2
+###  Consola de Base de Datos H2
 **http://localhost:8080/h2**
 
 Para inspeccionar directamente la base de datos:
@@ -177,10 +177,10 @@ Al iniciar, la aplicación carga automáticamente 3 estudiantes desde [data.sql]
 
 ## Notas Importantes
 
-- ⚠️ **Base de datos temporal**: Los datos se pierden al detener la aplicación (H2 in-memory)
-- 🔄 **LiveReload**: La aplicación se recarga automáticamente al cambiar archivos (puerto 35729)
-- 🎨 **DevTools**: Spring Boot DevTools está activo para desarrollo
-- 📝 **Logs SQL**: Todas las consultas SQL se muestran en la consola (`spring.jpa.show-sql=true`)
+-  **Base de datos temporal**: Los datos se pierden al detener la aplicación (H2 in-memory)
+-  **LiveReload**: La aplicación se recarga automáticamente al cambiar archivos (puerto 35729)
+-  **DevTools**: Spring Boot DevTools está activo para desarrollo
+-  **Logs SQL**: Todas las consultas SQL se muestran en la consola (`spring.jpa.show-sql=true`)
 
 ## Solución de Problemas
 
