@@ -1,0 +1,8 @@
+com\example\crud\service\StudentService.class
+com\example\crud\controller\HomeController.class
+com\example\crud\CrudDemoApplication.class
+com\example\crud\entity\Student$StudentBuilder.class
+com\example\crud\controller\StudentController.class
+com\example\crud\service\impl\StudentServiceImpl.class
+com\example\crud\entity\Student.class
+com\example\crud\repository\StudentRepository.class
